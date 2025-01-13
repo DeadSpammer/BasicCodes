@@ -1,1 +1,1 @@
-This are my beginning of the coding adventure.
+This is my beginning of the coding adventure.
