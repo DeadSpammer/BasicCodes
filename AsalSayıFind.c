@@ -5,7 +5,7 @@ int main()
     int number;
     float kalan;
     int a;
-    printf("Bir Sayi Giriniz : ");
+    printf("Number : ");
     scanf("%d",&number);
     int i = number-1;
 
@@ -16,7 +16,7 @@ int main()
         if (i == 2 && kalan != 0)
         {
             a = 1;
-            printf("%d Bir Asal Sayidir.", number);
+            printf("%d This is prime number.", number);
             break;
         }
         
@@ -25,7 +25,7 @@ int main()
     
     if (a != 1)
     {
-        printf("%d Bir Asal Sayi Degildir.", number);
+        printf("%d This not a prime number.", number);
     }
     
     

@@ -18,7 +18,7 @@ int main()
         i++;
     }
     
-    printf("Sifre : [");
+    printf("Random Passaword : [");
     for (int i = 0; i < 10; i++)
     {
         printf("%c", sifre[i]);

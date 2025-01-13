@@ -10,7 +10,7 @@ int main()
     char s[20];
     
 
-    printf("Fahrenheit veya Celcius Hangisi : ");
+    printf("Fahrenheit or Celcius(f/c) : ");
     scanf("%s",s);
 
     printf("%s",s);
@@ -18,17 +18,17 @@ int main()
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\nKac Derece : ");
     scanf("%f",&derece);
 
-    if (strcmp(s,"celcius") == 0)
+    if (strcmp(s,"c") == 0)
     {
         C = derece;
         F = (C * 1.8) + 32;
-        printf("\n\n\n\n%.1f Derece Celcius %.1f Derece Fahrenheit'a Esittir.", C , F);
+        printf("\n\n\n\n%.1f Degree Celcius equal %.1f degree Fahrenheit.", C , F);
     }
     else
     {
         F = derece;
         C = (F - 32)/1.8;
-        printf("\n\n\n\n%.1f Derece Fahrenheit %.1f Derece Celcius'a Esittir.", F , C);
+        printf("\n\n\n\n%.1f Degree Fahrenheit equal %.1f Degree Celcius.", F , C);
     }
     
 }

@@ -7,7 +7,7 @@ int main()
 {
     char kelimek[50];
 
-    printf("Kelime : ");
+    printf("Word : ");
     scanf("%s", kelimek);
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     
@@ -53,11 +53,11 @@ int main()
     {
         if (strcmp(kelime, V_Str) == 0)
         {
-            printf("\n\nTebrikler Kelimeyi Buldunuz.");
+            printf("\n\ncongratulations you find word.");
             break;
         }
         i = 0;
-        printf("\nHarf : ");
+        printf("\nLetter : ");
         scanf(" %c",&harf);
         zayn = 0;
         char harfb = toupper(harf);
@@ -83,14 +83,14 @@ int main()
             else if (kelime[i] != harfb && zayn != 1 && i == char_len-1)
             {
                 
-                printf("\nKelimede Boyle Bir Harf Yok.\n");
+                printf("\nThere is no such letter in the word.\n");
                 Health = Health - 1; 
             } 
             i++; 
         }
         if (Health == 0)
         {
-            printf("Caniniz Tukendi.");
+            printf("You have no health.");
             break;
         }
         

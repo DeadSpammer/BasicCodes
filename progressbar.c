@@ -13,7 +13,7 @@ void Progress_Bar()
     {
         int i_n = length - i;
         printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-        printf("Lutfen Bekleyiniz...\n");
+        printf("Please Wait...\n");
         printf("[%.*s", i, "||||||||||||||||");
         printf("%.*s]", i_n, "                   ");
         sleep(1);
