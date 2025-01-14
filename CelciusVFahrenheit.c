@@ -15,14 +15,14 @@ int main()
 
     printf("%s",s);
 
-    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\nKac Derece : ");
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\nDegree : ");
     scanf("%f",&derece);
 
     if (strcmp(s,"c") == 0)
     {
         C = derece;
         F = (C * 1.8) + 32;
-        printf("\n\n\n\n%.1f Degree Celcius equal %.1f degree Fahrenheit.", C , F);
+        printf("\n\n\n\n%.1f Degree Celcius equal %.1f Degree Fahrenheit.", C , F);
     }
     else
     {
