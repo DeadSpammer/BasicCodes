@@ -18,13 +18,13 @@ int main()
         i++;
     }
     
-    printf("Random Passaword : [");
+    printf("Random Passaword : ");
     for (int i = 0; i < 10; i++)
     {
         printf("%c", sifre[i]);
         Sleep(150);
     }
-    printf("]");
+    
     
     
     
